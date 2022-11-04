@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cinzel+Decorative&family=Fuzzy+Bubbles&family=Poiret+One&display=swap');
+
+main, footer, #gallerij, form {
+    margin: 0px 50px 180px 50px;
+    }
+
+body {
+    display:flex;
+    line-height: 2.5;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color:white;
+    background: radial-gradient(circle at -8.9% 43.2%, rgba(255, 124, 0, .9) 0%, rgb(255, 124, 0, .9) 8.9%, rgb(255, 163, 77, .9) 12.9%, rgb(255, 163, 77, .9) 18.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    }
+   
+nav { 
+    order:0;
+    flex-grow:0;
+    flex-shrink:1;
+    align-self:stretch;
+    }
+
+ul {
+  list-style-type: none;
+  }
+
+button  {
+    background: rgb(255, 163, 77);
+    border: solid 2px rgb(255, 163, 77);
+    width: 6em;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: .8em;
+    }
+
+button:hover    {
+    background-color: rgb(255, 124, 0);
+    border-color:  rgb(255, 124, 0);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+    }
+
+header { 
+    /* flex:2 1 auto; */
+    background: radial-gradient(circle at -8.9% 43.2%, rgba(255, 124, 0) 0%, rgb(255, 124, 0) 8.9%, rgb(255, 163, 77) 12.9%, rgb(255, 163, 77) 18.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    flex-grow:2;
+    align-self:stretch;
+    margin-bottom: 100px;
+    border-radius: 2px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(0, 0, 0, .8);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    padding:30px;
+    }
+
+.camera {
+  width: .8em;
+  }
+
+.camera:hover {
+    box-shadow: none;
+    }
+
+main { 
+    align-self:stretch;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    gap: 50px;
+    padding: 0px 250px 0px 250px;
+    }
+        
+div { 
+    align-self:stretch;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin:20px;
+    }
+        
+img {
+    width: 25em;
+    max-height: 15em;
+    border-radius: 2px;
+    opacity: .8;
+    }
+
+img:hover   {
+    opacity: 1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    }
+
+#gallerij {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    }
+
+form     {
+    padding: 50px;
+    text-align: center;
+    }
+      
+input   {
+    border: solid 1px black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+    border-radius: 15px;
+    padding: 6px;
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    }
+
+input:hover {
+    background-color: rgba(255, 163, 77) ;
+    }
+
+h1, h2   {
+font-family: 'Poiret One';
+font-size: 3.4em;
+animation: kenburns-top 30s ease-out both;
+opacity: .95;
+    }
+    @keyframes kenburns-top {
+        0% {
+                transform: scale(1) translateY(0);
+                transform-origin: 50% 16%;
+        }
+        100% {
+                transform: scale(1.25) translateY(-15px);
+                transform-origin: top;
+        }
+        }
+
+.tel {
+    font-family: 'Poiret One';
+    font-size: 2em;
+    }
+
+.tel:hover{
+    color: rgb(255, 124, 0);
+    }
+
+a   {
+    color: white;
+    text-decoration: none;
+    font-weight:900;
+    font-size: .9em;
+    }
+
+    #changed {
+        width: 2em;
+        height: 2em;
+        background-color: white;
+    }
+
+    #change {
+        width: .5em;
+        height: .5em;
+        margin-left: 55px;
+    }
+    
